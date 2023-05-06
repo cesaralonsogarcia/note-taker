@@ -30,6 +30,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Application Screenshot
 
+![Note Taker Screenshot]()
+
 ## GitHub Repository
 
-## Tests
+https://github.com/cesaralonsogarcia/note-taker
