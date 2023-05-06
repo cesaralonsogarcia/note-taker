@@ -12,15 +12,15 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
 
   <body>
     <nav class="navbar bg-info">
       <a class="navbar-brand text-light p-3" href="/">Note Taker </a>
       <div class="icons">
-        <i class="fas fa-save text-light save-note pe-3"></i>
-        <i class="fas fa-plus text-light new-note pe-4"></i>
+        <i class="fas fa-save text-light save-note"></i>
+        <i class="fas fa-plus text-light new-note"></i>
       </div>
     </nav>
     <div class="container-fluid">
@@ -30,25 +30,7 @@
             <ul class="list-group"></ul>
           </div>
         </div>
-        <form class="col-8 p-2">
-          <div class="form-group py-1" style="width: 100%; height: 50px;">
-            <input 
-              type="text" 
-              class="form-control border-0 note-title" 
-              placeholder="Note Title"
-              maxlength="28"
-              style="height: 100%; font-size: 3rem;"
-            />
-          </div>
-          <div class="form-group py-3">
-            <input 
-              type="text" 
-              class="form-control border-0 note-textarea"
-              placeholder="Note Text"
-            />
-          </div>
-        </form>
-        <!--<div class="col-8">
+        <div class="col-8">
           <input
             class="note-title"
             placeholder="Note Title"
@@ -56,7 +38,7 @@
             type="text"
           />
           <textarea class="note-textarea" placeholder="Note Text"></textarea>
-        </div>-->
+        </div>
       </div>
     </div>
     <script src="/assets/js/index.js"></script>
