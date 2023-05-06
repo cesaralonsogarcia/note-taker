@@ -32,6 +32,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ![Note Taker Screenshot](https://github.com/cesaralonsogarcia/note-taker/blob/main/public/assets/images/note-taker-screenshot.png)
 
+## Deployed Application
+
+https://cag-note-taker-app.herokuapp.com/
+
 ## GitHub Repository
 
 https://github.com/cesaralonsogarcia/note-taker
